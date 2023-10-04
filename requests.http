@@ -1,0 +1,6 @@
+POST http://localhost:3000/users/auth
+
+{
+    "login": "thomas.laforge.38@gmail.com",
+    "password": "toto"
+}
