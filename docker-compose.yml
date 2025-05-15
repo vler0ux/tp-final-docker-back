@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    build: .
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+
+  redis:
+    image: "node:20"
